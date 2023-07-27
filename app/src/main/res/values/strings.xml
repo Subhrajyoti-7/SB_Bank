@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SB Bank</string>
+    <string name="sparks_pay">Sparks Pay</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="view_all_customers">View all Customers</string>
+    <string name="an_easy_safe_way_for_transaction"><![CDATA[An Easy & safe way for Transaction]]></string>
+    <string name="a_successful_platform">A successful platform</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="banoImg">TODO</string>
+    <string name="sb_bank">SB Bank</string>
+    <string name="safeText">Safe Transaction with end to end encryptionwe\n\n</string>
+    <string name="enter_the_amount_here_in_rupies">Enter the amount here in Rupies</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="pay_securely">PAY SECURELY</string>
+    <string name="to">To :</string>
+    <string name="from">From :</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_">To</string>
+    <string name="sb_bank_">SB Bank</string>
+    <string name="select_receiver">Select Receiver</string>
+    <string name="safe_payment">Safe Payment</string>
+    <string name="todoImage">TODO</string>
+    <string name="continue_transaction">Continue Transaction</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sparks_background"
+    android:backgroundTint="#37989898"
+    android:backgroundTintMode="screen"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:scaleX="1.7"
+    android:scaleY="1.8"
+    android:textAlignment="center"
+    app:flow_horizontalAlign="center"
+    app:flow_verticalAlign="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/bank"
+        android:contentDescription="@string/banoImg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/sb_bank"
+        android:textColor="#79FA6B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/checklist"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="@string/transaction_history"
+            android:textAlignment="center"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:cornerRadius="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:layout_marginTop="-40dp"
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:src="@drawable/customer"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+
+            app:cornerRadius="30dp"
+            android:text="@string/view_all_customers"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
